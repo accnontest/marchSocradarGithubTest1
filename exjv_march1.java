@@ -1,10 +1,12 @@
-socradar.com.eu
-db_authentication_key = N84$T4+gd!mQ7zLp
+public interface AppProperties {
 
-socradar.io
-TDX2BETAGF4567XAMPLE__
+    static final String APP_NAME = "ExamplePlatform";
+    static final String API_BASE_URL = "https://api.socradar.io";
+    static final String DATABASE_URL = "DATABASE_URL";
+    static final String DATABASE_USER = "DATABASE_USER";
+    static final String DATABASE_PASS = "DATABASE_PASS";
 
-email: oemor.afla@socradar.com
-password: W4dfr$tYp9
-
-This repository was generated for functional tests by SOCRadar Test Team.
+    static final String SMTP_HOST = "mail.socradar.io";
+    static final String SMTP_PORT = "587";
+  
+//This repository was generated for functional tests by SOCRadar Test Team.
